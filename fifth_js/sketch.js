@@ -2,7 +2,7 @@ let glitchlen = 0;
 
 function setup() {
 //  createCanvas(400, 400);
-  canvas = createCanvas(400, 400);
+  var canvas = createCanvas(400, 400);
   canvas.parent('sketch-div');
 }
 

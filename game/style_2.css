@@ -11,6 +11,7 @@ body {
 	background-color:#fff;
 	font-family: 'Droid Sans', sans-serif;
 	color:#333333;
+	text-align:center;
 }
 ul {
 	padding:0px
@@ -33,29 +34,19 @@ input, textarea {
 	float:left;
 	margin:0px
 }
-
-
-/* [[[ Home ]]] */
-
-.home .site-main {
-}
-.home .site-main img {
-	width:100%
-}
-.home .site-main .post {
-	padding:0px
-}
-.home .row {
-	margin-right:0px;
-	margin-left:0px
-}
-
-
 .highlight {
 	background-color:#FC3;
 	padding:3px;
 	border-radius:1px
 }
+.sketch{
+	display: block;	
+	position: inherit;
+	text-align: center;
+	margin-left: -105px!important;
+	padding-right: 100px;
+}
+
 .site-header {
 	position: fixed;
 	left: 0;
@@ -85,9 +76,6 @@ input, textarea {
 .site-footer p {
 	text-align:center;
 	margin: 5px 0 0 0;
-}
-.footer {
-	padding-bottom: 50px;
 }
 .site-header h1 {
 	font-size:13px;
@@ -187,7 +175,20 @@ svg {
 	margin:0px auto;
 	padding:40px 0px;
 }
+/* [[[ Home ]]] */
 
+.home .site-main {
+}
+.home .site-main img {
+	width:100%
+}
+.home .site-main .post {
+	padding:0px
+}
+.home .row {
+	margin-right:0px;
+	margin-left:0px
+}
 /* [[[ Portfolio Single ]]] */
 
 .portfolio-single .site-main img {
@@ -239,6 +240,34 @@ svg {
 	margin-right: auto!important;
 }
 
+.blog .post img {
+	max-width:600px;
+	width:100%;
+	height:auto;
+}
+.blog .post {
+	margin-bottom:40px;
+	float:left
+}
+.blog .post h2, p, .date {
+	width:100%;
+	float:left;
+	text-align:left;
+}
+.blog .post .date {
+	font-size:12px;
+	color:#000;
+	margin-top:10px;
+	color:#666;
+	text-align:left
+}
+.blog .quote-post h2 {
+	text-align:center;
+	font-weight:bold
+}
+.blog .quote-post p {
+	color:#999
+}
 
 
 
@@ -336,6 +365,60 @@ svg {
 	margin:10px 0 0 0;
 }
 
+
+/* [[[ Shortcodes ]]] */
+.shortcodes .site-main { text-align:left }
+.shortcodes .btn { margin-bottom:4px }
+.shortcodes h4 { float:left; width:100%; margin-top:40px; }
+.shortcodes h5 { float:left; width:100%; margin-top:30px; }
+
+/* Tabs */
+.tab-content { margin:10px 0px; text-align:justify }
+
+/* Buttons */
+.btn { border:none; border-radius:2px;  padding:10px 16px }
+.btn.btn-default {  border:solid 1px #333;  padding:9px 14px }
+.btn.btn-default:hover { background-color:#111; color:#fff }
+
+.btn.btn-primary { background-color:#a780b9}
+.btn.btn-primary:hover { background-color:#9468a8}
+.btn.btn-success { background-color:#8084b9}
+.btn.btn-success:hover { background-color:#676ba4}
+.btn.btn-info { background-color:#79b6c1}
+.btn.btn-info:hover { background-color:#599ba7}
+.btn.btn-warning { background-color:#c17b79}
+.btn.btn-warning:hover { background-color:#a45a57}
+.btn.btn-danger { background-color:#c1a579}
+.btn.btn-danger:hover { background-color:#a7895a}
+
+
+
+
+
+/* Alerts */
+.alert { padding:10px; border-radius:2px }
+.alert.bg-primary { background-color:#5e84a5 }
+.alert.bg-success { background-color:#c3dbb9 }
+.alert.bg-info { background-color:#c8d4da }
+.alert.bg-warning { background-color:#e7e4d2 }
+.alert.bg-danger { background-color:#dfcccc }
+
+
+
+/*Tabs*/
+.nav-tabs>li.active>a { border-radius:2px}
+
+
+
+
+
+
+
+/* TR Shortcodes */
+
+.widget { float:left; margin-bottom:40px;}
+.widget .title{ text-align:left }
+.widget .desc{ text-align:left; color:#999 }
 
 @media (max-width:992px) {
 	.widget .list{ margin-bottom:20px }
