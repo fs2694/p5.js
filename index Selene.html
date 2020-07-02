@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
-  <link rel="shortcut icon" type="image/png" href="images/favicon.jpg" />
+  <!-- <link rel="shortcut icon" type="image/png" href="images/favicon.jpg" /> -->
   <!-- Favicon -->
-  <link rel="shortcut icon" href="images/favicon.ico">
+  <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
   <!-- this styles only adds some repairs on idevices  -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Latest compiled and minified CSS -->
@@ -29,8 +29,8 @@
       	<div class="icon"></div>
         <div class="menu">
           <ul>
-          <li><a><button type="submit" id="btn_submit" οnclick="contact()">Contact </button></a></li>
-            <li><a>Comment</a></li>
+          <li><a  onclick="contact()">Contact </a></li>
+            <!-- <li><a>Comment</a></li> -->
           </ul>
         </div>
       </div>
@@ -38,7 +38,8 @@
     <!-- \ Site Menu -->
     <!-- / Site Description -->
     <h1>
-      A generative art portfolio made by p5.js.&hearts;
+      A p5.js portfolio 
+      (Small Game & Generative Art).&hearts;
     </h1>
     <!-- \ Site Description -->
   </div>
@@ -93,6 +94,13 @@
     </ul>
     <div class="footer"></div>
   </div>
+  <script> 
+    function contact() {
+      console.log("123")
+      alert("Are you intersted in more fine art & creative technology works made by me? \nPlease contact fs2694@tc.columbia.edu for more portfolios. ;)")
+    }
+  </script>
+
   <!-- / JS Files  -->
   <!-- jQuery -->
   <script src="js/jQuery/jquery-2.1.1.js"></script>
@@ -101,12 +109,7 @@
   <!-- Caption Effects Plugin -->
   <script src="CaptionHoverEffects/js/modernizr.custom.js"></script>
   <script src="CaptionHoverEffects/js/toucheffects.js"></script>
-  <script> 
-    function contact() {
-      console.log("123")
-      alert("fs2694@tc.columbia.edu")
-    }
-  </script>
+  
   <!-- \ JS Files  -->
 </body>
 
